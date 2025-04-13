@@ -1,0 +1,155 @@
+body,
+div.conteiner>h1 {
+    margin: 0px;
+}
+
+.conteiner {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+div#header {
+    background-color: black;
+    color: white;
+}
+
+div#logo,
+div#nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+div#logo img {
+    height: 100%;
+}
+
+div#logo {
+    width: 10%;
+    height: 100px;
+}
+
+div#nav {
+    width: 89%;
+    text-align: right;
+}
+
+div#nav>a {
+    margin: 16px;
+    font-size: 20px;
+}
+
+#shop {
+    border: 2px solid white;
+    padding: 16px 64px
+}
+
+div.back-men {
+    width: 100%;
+    height: 72vh;
+    background: url('./imag/backs/slideshow.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.back-men h1,
+div.back-woman h1 {
+    padding-top: 200px;
+    font-size: 64px;
+}
+
+div.back-men p,
+div.back-woman p {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+div.back-men a,
+div.back-woman a {
+    background-color: black;
+    color: white;
+    padding: 16px 64px;
+}
+
+h1.men,
+h1.woman {
+    text-align: center;
+    border-bottom: 2px solid;
+    width: 20%;
+    margin: 64px auto;
+}
+
+div.shoes>div {
+    display: inline-block;
+    width: 20%;
+    margin: 16px;
+}
+
+div.shoes {
+    text-align: center;
+}
+
+div.card img {
+    width: 100%;
+}
+
+div.card>h2,
+div.card>p {
+    text-align: left;
+}
+
+div.shoes a {
+    background-color: black;
+    color: white;
+    width: 20%;
+    padding: 16px 64px;
+}
+
+div.back-woman {
+    height: 70vh;
+    background: url('./imag/backs/woman-slide.webp');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 90px;
+}
+
+div#foter {
+    background-color: black;
+    color: white;
+    height: 400px;
+    margin-top: 100px;
+}
+
+.botton-logo img {
+    height: 200px;
+    vertical-align: bottom;
+}
+
+div.botton-logo {
+    width: 39%;
+    text-align: right;
+}
+
+div.botton,
+div.botton-logo {
+    display: inline-block;
+}
+
+div.botton {
+    width: 20%;
+}
+
+ul {
+    list-style: none;
+    line-height: 2;
+}
+
+div.botton h1 {
+    margin-top: 70px;
+}
